@@ -1,0 +1,89 @@
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+nav {
+  background: #222;
+  color: #fff;
+  max-width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav img {
+  height: 115px;
+  width: 157px;
+}
+
+main {
+  margin-top: 2rem;
+  max-width: 100vw;
+  display: flex;
+}
+
+.container__item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+button {
+  background: #4dbce9;
+  padding: 1.5rem;
+  border-radius: 1em;
+  max-width: 120px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#carousel {
+  justify-content: center;
+}
+
+.carousel_img {
+  background: #4dbce9bf;
+  border-radius: 1em;
+  margin: 0 1rem;
+  max-width: 300px;
+  overflow: hidden;
+  display: flex;
+}
+
+.carousel_img img {
+  width: 300px;
+  height: 300px;
+}
+
+.contato {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato button {
+  border: none;
+  background: #fff;
+  padding: 1rem;
+}

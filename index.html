@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img src="./logo.svg" alt="logo" />
+      <h1>ByeCar</h1>
+    </nav>
+    <main>
+      <div class="container__item">
+        <h2>Ter uma moto por assinatura nunca foi tão fácil!</h2>
+        <img src="./pessoamoto.svg" alt="pessoamoto" />
+      </div>
+      <div class="container__item">
+        <h2>Conheça nossas motos!</h2>
+        <div id="carousel">
+          <img onclick="change(-1)" src="left_arrow.svg" />
+          <div class="carousel_img">
+            <div class="moto">
+              <h3>Scooter Elétrica Voltz EV1</h3>
+              <img src="./moto1.svg" />
+              <p>
+                O câmbio de 5 marchas da Scooter Elétrica Voltz EV1 oferece
+                maior confiança e performance na pilotagem, tornando as subidas
+                de marcha mais leves e as reduções mais suaves!
+              </p>
+              <div class="contato">
+                <h3>A partir de</h3>
+                <button>800R$</button>
+                <label>Plano de 30 meses</label>
+              </div>
+            </div>
+            <div class="moto">
+              <h3>Scooter Elétrica Voltz EV1</h3>
+              <img src="./moto2.svg" />
+              <p>
+                O câmbio de 5 marchas da Scooter Elétrica Voltz EV1 oferece
+                maior confiança e performance na pilotagem, tornando as subidas
+                de marcha mais leves e as reduções mais suaves!
+              </p>
+              <div class="contato">
+                <h3>A partir de</h3>
+                <button>500.00R$</button>
+                <label>Plano de 30 meses</label>
+              </div>
+            </div>
+          </div>
+          <img onclick="change(1)" src="./right_arrow.svg" />
+        </div>
+        <button>Saiba mais</button>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
